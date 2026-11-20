@@ -1,6 +1,4 @@
-# [Project name]
-
-> Push to `main` by **Thursday 12 November 2026, 23:59** (Submission 1).
+# MoneyWise
 
 **Course:** Electronic Business Development (BINF 503) · Winter 2026
 **Instructor:** Dr. Nourhan Hamdi
