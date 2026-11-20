@@ -13,6 +13,14 @@ app.get("/api/health", (req, res) => {
   res.status(200).json({ status: "ok" });
 });
 
+app.get("/api/spending-charts" , (req, res) => {
+  res.status(200).json({
+    totalSpent: 0,
+    totalBudget: null,
+    categories: [],
+  });
+});
+
 // Start server
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
